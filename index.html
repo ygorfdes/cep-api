@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <header>
+        <h1>CONSULTA DE CEP</h1>
+    </header>
+    <form>
+        <p>Ao inserir o CEP, seu endereço é preenchido automaticamente:</p><br />
+        <div class="campos">
+            <label for="cep">CEP</label><br />
+            <input type="text" class="controle_form" id="cep" maxlength="8" placeholder="Apenas números" />
+        </div>
+        <div class="campos">
+            <label for="logradouro">Logradouro</label><br />
+            <input type="text" class="controle_form" id="logradouro" size="30" />
+        </div>
+        <div class="campos">
+            <label for="bairro">Bairro</label><br />
+            <input type="text" class="controle_form" id="bairro" />
+        </div>
+        <div class="campos">
+            <label for="localidade">Localidade</label><br />
+            <input type="text" class="controle_form" id="localidade" />
+        </div>
+        <div class="campos">
+            <label for="uf">UF</label><br />
+            <input type="text" class="controle_form" id="uf" maxlength="2" />
+        </div>
+    </form>
+    <footer>
+        <p>MIT &copy; Ygor Oliveira Fernandes</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
